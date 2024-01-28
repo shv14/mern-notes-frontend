@@ -30,7 +30,7 @@ function App() {
             <Route exact path="/about" element={<About input={inputText} />} />
             <Route exact path="/login" element={<LogIn />} />
             <Route exact path="/signUp" element={<SignUp />} />
-            <Route exact path="/" element={<Home input={inputText} />} />
+            <Route exact path="/mern-notes-frontend" element={<Home input={inputText} />} />
           </Routes>
         </Router>
       </NoteState>
